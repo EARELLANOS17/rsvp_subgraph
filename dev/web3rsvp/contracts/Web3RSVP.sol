@@ -2,6 +2,7 @@
 pragma solidity ^0.8.0;
 //These properties are the properties that each individual event
 // will have on our platform. All of these details will also be stored on-chain.
+// Configuración de subgraph para lectura
 contract Web3RSVP {
     // NewEventCreated: exposes data about the new event like the owner, max capacity, event owner, deposit amount, etc.
     event NewEventCreated(
